@@ -121,6 +121,7 @@ import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Crossbow;
 import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Dagger;
 import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Dirk;
 import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Flail;
+import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Flute;
 import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Gauntlet;
 import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Glaive;
 import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Gloves;
@@ -344,9 +345,10 @@ public class Generator {
 					WornShortsword.class,
 					MagesStaff.class,
 					Dagger.class,
-					Gloves.class
+					Gloves.class,
+					Flute.class
 			};
-			WEP_T1.probs = new float[]{ 1, 0, 1, 1 };
+			WEP_T1.probs = new float[]{ 1, 0, 1, 1, 6 };
 			
 			WEP_T2.classes = new Class<?>[]{
 					Shortsword.class,
